@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="OneLabelTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="OneLabelTableViewCell" id="2SQ-Ww-fVq" customClass="OneLabelTableViewCell" customModule="CredlyUsersKatia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2SQ-Ww-fVq" id="hF2-Eg-GnC">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAH-k2-2er">
+                        <rect key="frame" x="20" y="10.000000000000002" width="353" height="29.666666666666671"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="HAH-k2-2er" secondAttribute="trailing" constant="20" id="EEB-v3-ojx"/>
+                    <constraint firstItem="HAH-k2-2er" firstAttribute="leading" secondItem="hF2-Eg-GnC" secondAttribute="leading" constant="20" id="Pbf-fg-5Ql"/>
+                    <constraint firstItem="HAH-k2-2er" firstAttribute="top" secondItem="hF2-Eg-GnC" secondAttribute="top" constant="10" id="SJM-KZ-O2H"/>
+                    <constraint firstAttribute="bottom" secondItem="HAH-k2-2er" secondAttribute="bottom" constant="4" id="piO-cK-eOc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="HAH-k2-2er" id="9s6-qI-pvE"/>
+            </connections>
+            <point key="canvasLocation" x="775" y="-11"/>
+        </tableViewCell>
+    </objects>
+</document>

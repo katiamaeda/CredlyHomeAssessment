@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  CredlyUsersKatia
+
+  Created by Katia Maeda on 2023-02-26.
+  
+*/
+
+// Users List
+"users_list_view_error_message" = "There was an error loading users. Please try again later.";
+"users_list_view_empty" = "There are no users";
